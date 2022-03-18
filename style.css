@@ -1,0 +1,102 @@
+body {
+    margin:0px;
+}
+
+html,body, .main-container { height:100%; width: 100%; }
+
+.logo {
+    background-color: rgba(128, 128, 128, 0.219);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    position: relative;
+    top: 20vh;    
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.creditText {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0.5%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-column {
+    background-image: url(./images/unsplash.jpg);
+    height: 100%;
+    width: 40%;
+    background-size: cover;
+}
+
+.right-column {
+    margin-left: 0px;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.form-col1, .form-col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-1 {
+    margin-top: 10%;
+    width: 60%;
+}
+.row-1, .row-3 {
+    margin-left: 1.3em;
+}
+
+.row-2 {
+    background-color: #F7F9F9;
+    padding: 10px 0;
+}
+
+
+.formSection {
+    display: flex;
+    padding-left: 2em;
+}
+
+.form-col2 {
+    margin-left: 5%;
+}
+
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+    margin:5px;
+    border-radius: 0.5em;
+    height: 2em;
+    width: 300px;
+  }
+
+input:focus {
+    border: 3px solid #596D48;
+    box-shadow: 1px 1px;
+}
+
+#formHeader {
+    margin-left: 1.3em;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 0.4em;
+    height: 3em;
+    font-size: 1rem;
+}
